@@ -1,5 +1,6 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 header {
@@ -21,3 +22,38 @@ h1 {
 label {
   padding-bottom:0.5em;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.x-axis-label {
+  display: flex;
+}
+
+.graph {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.y-axis-title{
+  transform: rotate(-90deg);
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  height:7px;
+  width: 7px;
+  margin-left:2px;
+  border:1px solid grey;
+  margin-top: 5px;
+}
+
+/* .square:nth-child(3){
+  background-color: blue;
+} */

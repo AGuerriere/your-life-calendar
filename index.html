@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <div class="intro">
+    <div>
       <h1>Your Life in <span>Weeks</span></h1>
       <div class="birthday">
         <label for="birthday-date">Enter your Birthday:</label>
@@ -18,10 +18,26 @@
     </div>
   </header>
   <main>
-    <div class="x-axis-label">
-      <div class="axis-title">Week of the year</div>
-      <div class="arrow">------></div>
+    <div>
+      <div class="x-axis-label">
+        <div class="x-axis-title">Week of the year</div>
+        <div class="arrow"><img src="./img/arrow-right.svg" width="30px" alt="arrow-right"></div>
+      </div>
+      <div class="graph">
+        <div class="y-axis-label">
+          <div class="y-axis-title">Age</div>
+          <div class="arrow"><img src="./img/arrow-down.svg" alt="arrow-down"></div>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <div class="year">0</div>
+            <div class="square"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </body>
+
+<script src="main.js"></script>
 </html>
